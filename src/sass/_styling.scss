@@ -1,0 +1,67 @@
+section {
+    @include flexCenterMobile();
+
+    * {
+        margin-bottom: 30px;
+    }
+
+   .section-content {
+        @include flexCenterMobile();
+        background-color: $dark;
+              
+        * {
+            margin-bottom: 30px;
+        }
+
+        p {
+            padding: 0 50px;
+        }
+   }
+}
+
+#hero-section {
+    position: relative;
+    video {
+        height: 70vh;
+        
+    }
+    h1 {
+        position: absolute;
+        text-shadow: 0 0 10px $shadow;
+    }
+}
+
+#intro-section {
+
+    .section-content {
+        @include flexCenterMobile();
+        padding: 20px 0;
+    }
+    
+}
+
+#sponsor-main { 
+    padding: 40px 30px 70px 30px;
+
+    a {
+        @include flexCenterMobile();
+        
+    }
+}
+
+#about-us-section {
+    ul {
+       @include flexCenterMobile();
+    }
+}
+
+.big-img {
+    max-width: 80%;
+}
+
+.thumbnail {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
