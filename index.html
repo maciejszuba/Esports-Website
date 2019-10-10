@@ -12,19 +12,63 @@
 
 <body>
 
+    <header id="header">
+        <ul>
+            <li>
+                <div id="menu-btn" onclick="showNav()">
+                    <img src="./src/img/ui/menu.svg" alt="">
+                </div>
+            </li>
+            <li>
+                <img id="header-logo" src="./src/img/logo.png" alt="">
+            </li>
+            <li>
+                <div>
+                    <img src="./src/img/ui/user.svg" alt="">
+                </div>
+            </li>
+        </ul>
+
+    <nav id="navbar">
+            <ul>
+                <li class="nav-option"><h3>Home</h3></li>
+                <li class="nav-option"><h3>Spielen</h3></li>
+                <li class="nav-option"><h3>Teamsuche</h3></li>
+                <li class="nav-option"><h3>Live</h3></li>
+                <li class="nav-option"><h3>Forum</h3></li>
+                <li id="login-box">
+                    <p>Bitte logen dich ein, um an der Premier Tour teilzunehmen!</p>
+                    <button>Login/Anmelden</button>
+                </li>
+                <li>
+                    <ul id="social-media">
+                    <li><img src="./src/img/social media/twitter.svg" alt=""></li>
+                    <li><img src="./src/img/social media/instagram.svg" alt=""></li>
+                    <li><img src="./src/img/social media/twitch.svg" alt=""></li>
+                </ul></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+
     <section id="hero-section">
 
+        <video src="https://cdn1-v3.gamesports.net/img/themes/premiertour/hero_vid.mp4?1" autoplay="autoplay"
+            muted="muted" loop="loop" preload="metadata"> </video>
 
-        <h1 class="container">PREMIER TOUR – DIE GRÖSSTE LEAGUE OF LEGENDS LIGA FÜR DEUTSCHLAND, ÖSTERREICH UND DIE SCHWEIZ</h1>
+        <h1 class="container">PREMIER TOUR – DIE GRÖSSTE LEAGUE OF LEGENDS LIGA FÜR DEUTSCHLAND, ÖSTERREICH UND DIE
+            SCHWEIZ</h1>
 
     </section>
 
     <section id="intro-section container" class="">
-        <h2 class="section-title">WAS IST PREMIER TOUR?</h2>
+        <h2 class="section-title container">WAS IST PREMIER TOUR?</h2>
         <div class="section-content">
             <img class="big-img" src="./src/img/logo.png" alt="" srcset="">
-            <h3>DIE GRÖSSTE LEAGUE OF LEGENDS LIGA IM DEUTSCHSPRACHIGEN RAUM</h3>
-            <p>Premier Tour ist die offizielle Liga von Riot Games und bildet damit das Zentrum des deutschsprachigen
+            <h3 class="container">DIE GRÖSSTE LEAGUE OF LEGENDS LIGA IM DEUTSCHSPRACHIGEN RAUM</h3>
+            <p class="container">Premier Tour ist die offizielle Liga von Riot Games und bildet damit das Zentrum des
+                deutschsprachigen
                 League
                 of Legends-Esports. Zusätzlich zu den Profis aus Deutschland, Österreich und der Schweiz bekommen hier
                 Teams
@@ -48,14 +92,15 @@
     </section>
 
     <section id="about-us-section">
-        <h2 class="section-title">WIR SCHICKEN DEIN TEAM IN DIE KLUFT</h2>
+        <h2 class="section-title container">WIR SCHICKEN DEIN TEAM IN DIE KLUFT</h2>
 
         <ul>
             <li>
                 <div class="section-content">
                     <img class="thumbnail" src="./src/img/thumbnails/3986_thumb.jpg" alt="">
                     <h3>NIMM TEIL UND BEWEISE DICH</h3>
-                    <p>Anders als bisher wird die Premier Tour künftig als Liga ausgespielt. Die Premier Tour ist das
+                    <p class="container">Anders als bisher wird die Premier Tour künftig als Liga ausgespielt. Die
+                        Premier Tour ist das
                         neue Zuhause für Spieler jeden Skill-Levels, von Eisen-Rang bis Elo-Gott. Das heißt für dich und
                         deine Freunde, dass ihr euch in der Kluft mit Hunderten anderen Teams messen könnt und um den
                         Aufstieg in
@@ -73,7 +118,8 @@
                 <div class="section-content">
                     <img class="thumbnail" src="./src/img/thumbnails/3989_thumb.jpg" alt="">
                     <h3>KEIN TEAM? KEIN PROBLEM!</h3>
-                    <p>Auch ohne Team wirst du Bestandteil der wichtigsten League of Legends-Esports-Liga! Mit unserem
+                    <p class="container">Auch ohne Team wirst du Bestandteil der wichtigsten League of
+                        Legends-Esports-Liga! Mit unserem
                         Teamfinder findest du schnell und unkompliziert ein passendes Team, um selbst in der Premier
                         Tour
                         anzutreten.</p>
@@ -84,6 +130,74 @@
 
     </section>
 
+    <section id="brand-section">
+        <ul class="container brands-list">
+            <li class="brand-item"><a href=""></a><img src="./src/img/brands/hyperx.svg" alt=""></a></li>
+            <li class="brand-item"><a href=""><img src="./src/img/brands/rv.svg" alt=""></a></li>
+            <li class="brand-item"><a href=""><img src="./src/img/brands/v-power-1.svg" alt=""></a></li>
+            <li class="brand-item"><a href=""><img src="./src/img/brands/nic-nacs.svg" alt=""></a></li>
+            <li class="brand-item"><a href=""><img src="./src/img/brands/barmer.svg" alt=""></a></li>
+        </ul>
+    </section>
+
+    <section id="community-section">
+        <h2 class="section-title container">NEUIGKEITEN & DISKUSSIONEN</h2>
+
+        <ul>
+            <li>
+                <div class="section-content">
+                    <img class="thumbnail" src="./src/img/thumbnails/3992_thumb.jpg" alt="">
+                    <h3>BIG UND MOUZ IM EUROKAMPF</h3>
+                    <p class="container">Die European Masters starteten am Montagabend in die Play-In-Phase. Während
+                        Premier Tour-Champion mousesports noch entspannt zusehen kann, ist mit BIG ein deutsches Team
+                        direkt gefordert.
+                    </p>
+                    <button>Weiterlesen</button>
+                </div>
+            </li>
+
+            <li>
+                <div class="section-content">
+                    <img class="thumbnail" src="./src/img/thumbnails/3995_thumb.jpg" alt="">
+                    <h3>WELCHES TEAM SUPPORTS DU?</h3>
+                    <p class="container">BIG und mousesports vertreten die deutschsprachige Region auf europäischer
+                        Ebene. Für welches Team schlägt dein Elo-Herz und wie supportest du deine Champions?</p>
+                    <button>Diskutiere im forum</button>
+                </div>
+            </li>
+        </ul>
+
+    </section>
+
+    <section id="links-section">
+        <ul>
+            <li><h3>ÜBER UNS</h3></li>
+            <li><a href="">Staff</a></li>
+            <li><a href="">Impressum</a></li>
+            <li><a href="">Nutzungsbedingungen</a></li>
+            <li><a href="">Datenschutzerklärung</a></li>
+            <li><a href="">Support</a></li>
+        </ul>
+        <img src="./src/img/brands/f4ug_logo_white_high.png" alt="">
+        <img src="./src/img/brands/riot.png" alt="">
+    </section>
+
+    <footer id="footer">
+        <ul>
+            <li><img src="./src/img/footer/hyperx.svg" alt=""></li>
+            <li><img src="./src/img/footer/rv.svg" alt=""></li>
+            <li><img src="./src/img/footer/shell.svg" alt=""></li>
+            <li><img src="./src/img/footer/nicnac.svg" alt=""></li>
+            <li><img src="./src/img/footer/barmer.svg" alt=""></li>
+        </ul>
+    </footer>
+
+    <script>
+        let nav = document.getElementById("navbar");
+        function showNav() { 
+            nav.classList.toggle("visible");
+        }
+    </script>
 </body>
 
 </html>
